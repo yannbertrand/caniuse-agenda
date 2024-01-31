@@ -1,0 +1,19 @@
+{
+  "name": "caniuse-agenda",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "start": "node demo.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001581"
+  },
+  "devDependencies": {
+    "vitest": "^1.2.2"
+  }
+}
