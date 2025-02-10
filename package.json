@@ -11,7 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "caniuse-lite": "^1.0.30001581"
+    "caniuse-lite": "^1.0.30001699"
   },
   "devDependencies": {
     "vitest": "2.1.9"
