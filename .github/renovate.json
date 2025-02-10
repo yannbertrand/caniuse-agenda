@@ -1,12 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:js-lib", ":automergeMinor"],
+  "extends": [
+    "config:js-lib",
+    ":automergeMinor"
+  ],
   "commitMessagePrefix": ":pushpin:",
   "packageRules": [
     {
-      "matchPackagePatterns": ["^caniuse-lite$"],
-      "matchUpdateTypes": ["patch"],
-      "automerge": true
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": true,
+      "matchPackageNames": [
+        "/^caniuse-lite$/"
+      ]
     }
   ]
 }
